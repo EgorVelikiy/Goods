@@ -1,0 +1,15 @@
+.cards-container {
+    column-count: 3;
+}
+
+@media (max-width: 1020px) {
+    .cards-container {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 690px) {
+    .cards-container {
+        column-count: 1;
+    }
+}

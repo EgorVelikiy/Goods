@@ -1,0 +1,39 @@
+.item-card {
+    width: 270px;
+    height: 250px;
+    margin-bottom: 10%;
+    background-color: rgb(245,245,245);
+    padding-top: 30px;
+    margin-left: 80px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-card {
+    width: 150px;
+}
+
+.name-card {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.card-tools {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price {
+    color: red;
+}
+
+@media (max-width: 1170px) {
+    .item-card {
+        margin-left: 50px;
+    }
+}
